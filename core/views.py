@@ -265,7 +265,7 @@ class PaymentView(View):
 
             # fraud detection using previous data stored and location
             ls = []
-            access_token = 'ee6e605433b9d3'     # access token from ipinfo.io
+            access_token = 'give_access_token'     # access token from ipinfo.io
             handler = ipinfo.getHandler(access_token)
             details = handler.getDetails()      # getting all the details about location
             # this file can be downloaded from Stripe Admin account
