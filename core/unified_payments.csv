@@ -1,0 +1,8 @@
+id,Seller Message,Created (UTC),Amount,Amount Refunded,Currency,Converted Amount,Converted Amount Refunded,Fee,Tax,Converted Currency,Status,Captured,Card ID,Card Fingerprint,Invoice ID,Transfer
+ch_1Ist4WHFOK9hcAhfPGtz68qD,Payment complete.,2021-05-19 17:20,20.00,0.00,usd,20.00,0.00,0.88,0.00,usd,Paid,true,card_1Ist4VHFOK9hcAhfTCLMmkSj,tLfuDhdFs2hgsTAl,,
+ch_1Ist2uHFOK9hcAhf4na7f8NJ,Payment complete.,2021-05-19 17:19,50.00,0.00,usd,50.00,0.00,0.88,0.00,usd,Paid,true,card_1Ist2tHFOK9hcAhfCXS1BvlS,tLfuDhdFs2hgsTAl,,
+ch_1Ist1UHFOK9hcAhfHA6Z7Br3,Payment complete.,2021-05-19 17:17,60.00,0.00,usd,60.00,0.00,2.04,0.00,usd,Paid,true,card_1Ist1THFOK9hcAhfxAXHLkGc,tLfuDhdFs2hgsTAl,,
+ch_1IssyJHFOK9hcAhfl7wJ9C4e,Payment complete.,2021-05-19 17:14,80.00,0.00,usd,80.00,0.00,2.04,0.00,usd,Paid,true,card_1IssyIHFOK9hcAhfk2pdwGMs,tLfuDhdFs2hgsTAl,,
+ch_1IsswoHFOK9hcAhfZBvBNqJD,Payment complete.,2021-05-19 17:12,60.00,0.00,usd,60.00,0.00,2.04,0.00,usd,Paid,true,card_1IsswnHFOK9hcAhfpZy1oBzx,tLfuDhdFs2hgsTAl,,
+ch_1IsSbDHFOK9hcAhfzzhsiCHW,Payment complete.,2021-05-18 13:04,70.00,0.00,usd,70.00,0.00,0.88,0.00,usd,Paid,true,card_1IsSbBHFOK9hcAhfR6HNN9Um,tLfuDhdFs2hgsTAl,,
+ch_1IsSQNHFOK9hcAhfoaTCNOvS,Payment complete.,2021-05-18 12:53,55.00,0.00,usd,55.00,0.00,1.90,0.00,usd,Paid,true,card_1IsSQLHFOK9hcAhfuJLMdn6v,tLfuDhdFs2hgsTAl,,
