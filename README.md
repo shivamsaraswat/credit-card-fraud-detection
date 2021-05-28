@@ -1,6 +1,8 @@
 # Online Transaction Fraud Detection using Backlogging on E-Commerce Website
  
+* This is a Mini Project I got in my 6th Semester of Engineering. I did this as a group project with my 3 friends. In this, we implemented Fraud Detection System (FDS) using Behavior and Location Analysis (BLA) to detect a payment fraud. FDS verifies whether the transaction is genuine or not. User spending patterns and geographical location is used to verify the identity. If any unusual pattern is detected, payment is declined.
 
+### How to Use?
     git clone https://github.com/shivamsaraswat/credit-card-fraud-detection.git
     cd credit-card-fraud-detection.git
     pip install virtualenv

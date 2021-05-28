@@ -265,31 +265,29 @@ class PaymentView(View):
 
             # fraud detection using previous data stored and location
             ls = []
-            access_token = 'ee6e605433b9d3'
+            access_token = 'ee6e605433b9d3'     # access token from ipinfo.io
             handler = ipinfo.getHandler(access_token)
-            details = handler.getDetails()
+            details = handler.getDetails()      # getting all the details about location
+            # this file can be downloaded from Stripe Admin account
             with open(r'D:\Django\DJ-Mart\credit-card-fraud-detection\core\unified_payments.csv', 'r') as file:
                 reader = csv.DictReader(file)
                 sum = 0
                 for row in reader:
                     amt = float(dict(row)["Amount"])
                     ls.append(amt)
+            # assuming that user will not go beyond the 1.5 times of highest payment he/she done in past
             limit = int(1.5 * max(ls) * 100)
-            # count = 0
-            if(amount > limit):
+            if(amount > limit):             # checking if user is going beyond the defined limit
                 messages.warning(
                     self.request, "User not allowed for this payment.")
-                # count = count + 1
                 return redirect("/")
-            elif(details.country != 'IN'):
+            elif(details.country != 'IN'):  # checking if user is in India or not
                 messages.warning(
                     self.request, "User not allowed for this payment.")
-                # count = count + 1
                 return redirect("/")
 
             # payment
             try:
-
                 if use_default or save:
                     # charge the customer because we cannot charge the token more than once
                     charge = stripe.Charge.create(
